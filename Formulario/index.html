@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Formulary</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Formaulario del Portafolio</h1>
+        <p id="description" class="text-center description">Muchas gracias a todos por visualizar este código</p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+         <label id="name-label">Nombre</label>
+         <input required id="name" type="text" placeholder="Escribe tu nombre" class="form-control"></input>
+        </div>
+
+        <div class="form-group">
+          <label id="email-label">Coreo electrónico</label>
+          <input required id="email" type="email" placeholder="Escribe tu correo" min="1" class="form-control"></input>
+        </div>
+
+        <div class="form-group">  
+          <label id="number-label">Edad (Opcional)</label>
+          <input required id="number" type="number" placeholder="Edad" min="1" max="5" class="form-control"></input>
+        </div>
+
+        <div class="form-group">
+          <label>Que describe mejor tu rol?</label>
+
+          <select id="dropdown" class="form-control">
+            <option value="" disabled selected>Selecciona tu rol</option>
+            <option value="Student">Estudiante</option>
+            <option value="Full_time_job">Jornada completa</option>
+            <option value="Full_time_learner">Jornada completa estudiantil</option>
+            <option value="Prefer_not_say">Prefiero no contestar</option>
+            <option value="Other">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Me recomendarias a un amigo?</label>
+          <input type="radio" name="radio" value="Definitivamente" class="input-radio">Definitely</input>
+          <br>
+          <input type="radio" name="radio" value="Maybe" class="input-radio">Probablemente</input>
+          <br>
+          <input type="radio" name="radio" value="Not sure" class="input-radio">No lo se</input>
+        </div>
+
+        <div class="form-group">
+          <label>En que te gustaría mejorar? (Marque todo lo que corresponda)</label>
+          <label><input type="checkbox" value="FrontEnd" class="input-checkbox"></input>Proyectos Front-end</label> 
+          <label><input type="checkbox" value="BackEnd" class="input-checkbox"></input>Proyectos Back-end</label>
+          <label><input type="checkbox" value="Data" class="input-checkbox"></input>Visualización de datos</label>
+          <br>
+        </div>
+
+        <div class="form-group">
+          <label>Algun comentario o sugerencia?</label>
+          <textarea id="coments" class="input-textarea"></textarea>
+        </div>
+
+        <div class="form-group">
+          <button id="submit" type="submit" class="submit-button">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
