@@ -12,7 +12,7 @@ Este es mi portafolio donde tengo mis mejores proyectos públicos hechos con HTM
 - [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
 
 ## Instalación
-Este proyecto no neceista instalación.
+Este proyecto no necessita instalación.
 
 ## Contratación
-Si quereis contratarme puedes escribirme a ericveganoguera@gmail.com para consultas
+Si quereis contratarme puedes escribirme a ericveganoguera@gmail.com para consultas.
