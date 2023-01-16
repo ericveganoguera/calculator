@@ -9,7 +9,7 @@ Este es mi portafolio donde tengo mis mejores proyectos públicos hechos con HTM
 * [LinkedIn](https://www.linkedin.com/in/ericveganoguera/)
 
 ## Ver ejemplo en vivo
-- [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
+- [https://ericveganoguera.github.io/mi-portfolio/](https://ericveganoguera.github.io/mi-portfolio/)
 
 ## Instalación
 Este proyecto no necessita instalación.
