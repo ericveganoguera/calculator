@@ -1,9 +1,9 @@
-## Descripción
+## Descripción 🎇🎇
 
 Este es mi portafolio donde tengo mis mejores proyectos públicos hechos con HTML, CSS y JavaScript
 
-## Autor -
-** Èric Vega Noguera **
+## Autor 🖊
+**Èric Vega Noguera**
 
 
 * [LinkedIn](https://www.linkedin.com/in/ericveganoguera/)
