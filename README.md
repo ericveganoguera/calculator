@@ -10,8 +10,6 @@ Este es mi portafolio donde tengo mis mejores proyectos públicos hechos con HTM
 
 ## Ver ejemplo en vivo
 - [Mi página web](https://ericveganoguera.com)
-- [Menu Desplegable](https://ericveganoguera.github.io/mi-portfolio/MenuDesplegable/)
-- [Formulario](https://ericveganoguera.github.io/mi-portfolio/Formulario/)
 
 ## Instalación
 Este proyecto no necessita instalación.
