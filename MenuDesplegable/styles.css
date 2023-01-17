@@ -67,8 +67,8 @@ ul li a:hover:before {
     opacity: 1;
     left: 50%;
     letter-spacing: 10px;
-    width: 1800px;
-    height: 1800px;
+    width: 3200px;
+    height: 3200px;
 }
 
 ul li:nth-child(6n+1) a:before{
