@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Mi portafolio</title>
 </head>
+
 <body>
     <!-- Barra de navegacion -->
     <nav class="nav-bar">
         <div class="container">
             <div class="nav-logo">
-                    <p class="nav-title">
-                        <a href="#inicio">ERIC</a>
-                    </p>
+                <p class="nav-title">
+                    <a href="#inicio">ERIC</a>
+                </p>
             </div>
             <div class="nav-menu">
                 <i class="fa fa-bars"></i>
@@ -32,7 +34,7 @@
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li class="ul-link" data-ref="contacto">
-                    <a href="#contacto" >Contacto</a>
+                    <a href="#contacto">Contacto</a>
                 </li>
             </ul>
 
@@ -41,11 +43,11 @@
     <!-- Portada Web -->
     <section class="inicio" id="inicio">
         <div class="inicio-bg"></div>
-            <picture>
-                <source type="image/webp" srcset="./Assets/profile.webp" />
-                <img class="inicio-perfil" alt="Imagen perfil" />
-            </picture>
-        
+        <picture>
+            <source type="image/webp" srcset="./Assets/profile.webp" />
+            <img class="inicio-perfil" alt="Imagen perfil" />
+        </picture>
+
         <div class="inicio-descripcion">
             <h1 class="inicio-titulo">Èric Vega</h1>
             <span class="inicio-titulo-secundario">Desarrollador Front-End</span>
@@ -56,39 +58,43 @@
             <h2 class="seccion-titulo">Sobre mi</h2>
             <div class="sobremi-grid">
                 <div class="sobremi-descripcion">
-                    <h2>Desarrollador Front-End</h2>
-                    <p>Soy una persona proactiva con ganas de entrar en el sector y demostrar mis habilidades. </p> 
+                    <h2 class="habilidad-titulo">Desarrollador Front-End</h2>
+                    <p>Soy una persona proactiva con ganas de entrar en el sector y demostrar mis habilidades. </p>
                     <p>Soy creativo, innovador y estoy muy motivado. </p>
-                    <p>Actualmente, busco trabajo donde poder desarrollar los conocimientos que estoy obteniendo en un Bootcamp con el objetivo de mantener un crecimiento continuo en mi vida laboral.</p>
-                    <a
-                    class="button-cv"
-                    href="./Èric Vega - Español.pdf"
-                    download="Eric Vega CV"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <i class="fas fa-file-download"></i>Descargar CV
+                    <p>Actualmente, busco trabajo donde poder desarrollar los conocimientos que estoy obteniendo en un
+                        Bootcamp con el objetivo de mantener un crecimiento continuo en mi vida laboral.</p>
+                    <a class="button-cv" href="./Èric Vega - Español.pdf" download="Eric Vega CV" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fas fa-file-download"></i>Descargar CV
                     </a>
                 </div>
                 <div class="sobremi-habilidades">
-                    <div class="habilidad-titulo">
-                        <h2>Habilidades y lenguajes</h2>
-                    </div>
-                    <div class="habilidad-item">
-                        <img src="./Assets/html5.png" alt="HTML5 icon"/>
-                        <div class="habilidad-nombre">HTML5</div>
-                    </div>
-                    <div class="habilidad-item">
-                        <img src="./Assets/css3.png" alt="CSS3 icon"/>
-                        <div class="habilidad-nombre">CSS3</div>
-                    </div>
-                    <div class="habilidad-item">
-                        <img src="./Assets/js.png" alt="JavaScript icon"/>
-                        <div class="habilidad-nombre">JavaScript</div>
-                    </div>
-                    <div class="habilidad-item">
-                        <img src="./Assets/ts.png" alt="TypeScript icon"/>
-                        <div class="habilidad-nombre">TypeScript</div>
+                    <h2 class="habilidad-titulo">Habilidades y lenguajes</h2>
+                    <div class="contacto-grid">
+                        <div class="contacto-item">
+                            <i>
+                                <img src="./Assets/html5.png" alt="HTML5 icon" />
+                                <p>HTML5</p>
+                            </i>
+                        </div>
+                        <div class="contacto-item">
+                            <i>
+                                <img src="/Assets/css3.png" alt="CSS3 icon" />
+                                <p>CSS3</p>
+                            </i>
+                        </div>
+                        <div class="contacto-item">
+                            <i>
+                                <img src="/Assets/js.png" alt="JavaScript icon" />
+                                <p>JavaScript</p>
+                            </i>
+                        </div>
+                        <div class="contacto-item">
+                            <i>
+                                <img src="/Assets/ts.png" alt="TypeScript icon" />
+                                <p>TypeScript</p>
+                            </i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,8 +102,9 @@
     </section>
     <section id="portfolio">
         <div class="container">
-        <h2 class="seccion-titulo">Portfolio</h2>
-        <h3 class="seccion-subtitulo">Aqui podrás ver los proyectos en los que he trabajado y los que estan en progreso.</h3>
+            <h2 class="seccion-titulo">Portfolio</h2>
+            <h3 class="seccion-subtitulo">Aqui podrás ver los proyectos en los que he trabajado y los que estan en
+                progreso.</h3>
             <div>
                 <div></div>
                 <div></div>
@@ -111,38 +118,25 @@
             <h2 class="seccion-titulo">Contacto</h2>
             <h3 class="seccion-subtitulo">Contacteme si cree que podemos trabajar juntos</h3>
             <div class="contacto-grid">
-                <a
-                  href="mailto:ericveganoguera@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
                 <div class="contacto-item">
-      
-                    <i class="fa fa-envelope" style="font-size:64px"></i>
-                    <p>Correo</p>
+                    <a href="mailto:ericveganoguera@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-envelope" style="font-size:64px"></i>
+                        <p>Correo</p>
+                    </a>
                 </div>
-                </a>
-                <a
-                  href="https://github.com/ericveganoguera"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="contacto-item">
-                    <i class="fa fa-github" style="font-size:64px"></i>
-                    <p>GitHub</p>
-                  </div>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/ericveganoguera/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="contacto-item">
-                    <i class="fa fa-linkedin-square" style="font-size:64px;color:blue"></i>
-                    <p>LinkedIn</p>
-                  </div>
-                </a>
-              </div>
+                <div class="contacto-item">
+                    <a href="https://github.com/ericveganoguera" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-github" style="font-size:64px"></i>
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div class="contacto-item">
+                    <a href="https://www.linkedin.com/in/ericveganoguera/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-linkedin-square" style="font-size:64px;color:blue"></i>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
@@ -150,4 +144,5 @@
     </footer>
     <script async src="./index.js"></script>
 </body>
+
 </html>
