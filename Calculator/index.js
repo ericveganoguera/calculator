@@ -4,7 +4,7 @@ const numberButtons = document.querySelectorAll(".number");
 const clearButton = document.querySelectorAll(".clear");
 const operatorButtons = document.querySelectorAll(".operator");
 const equalButtons = document.querySelectorAll(".equal");
-
+ 
 //Initialize logic variables
 let operatorNotClicked = true;
 let previousValue = "";
@@ -12,6 +12,8 @@ let operator = "";
 let firstTimeEqual = true;
 let operatorClicked = false;
 let dotClicked = false;
+
+
 
 // Add an event for each button
 numberButtons.forEach((button) => {
